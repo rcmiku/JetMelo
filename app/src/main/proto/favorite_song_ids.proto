@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "com.rcmiku.music";
+option java_multiple_files = true;
+
+message FavoriteSongIds {
+    repeated int64 song_ids = 1;
+}
